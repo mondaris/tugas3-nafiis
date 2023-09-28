@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                   String email = _emailController.text;
                   String password = _passwordController.text;
 
-                  if (email == 'nafiis' && password == 'nafiis') {
+                  if (email == 'nafiis@gmail.com' && password == 'nafiis') {
                     _prefs?.setString('email', email);
                     _prefs?.setString('password', password);
 
